@@ -12,6 +12,7 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -46,14 +47,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
+                <!-- <executions>
                     <execution>
                         <goals>
-                            <!-- 生成大jar包https://www.cnblogs.com/zhouqinxiong/p/repackage.html-->
+                            生成大jar包https://www.cnblogs.com/zhouqinxiong/p/repackage.html
                             <goal>repackage</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
